@@ -3,9 +3,9 @@ spring:
     name: OAuth-Client-Service
 
   datasource:
-    url: postgresql://oauth_db_de50_user:Y4sMG9R3lzfRKHnIRjzNAVLNBl2u366d@dpg-d870o3navr4c738nm58g-a/oauth_db_de50
-    username: oauth_db_de50_user
-    password: Y4sMG9R3lzfRKHnIRjzNAVLNBl2u366d
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASS}
 
   jpa:
     hibernate:
