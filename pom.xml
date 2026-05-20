@@ -66,6 +66,11 @@
 		    <artifactId>mysql-connector-j</artifactId>
 		</dependency>
 		
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		</dependency>
+		
 		<!-- JWT -->
 		<dependency>
 		    <groupId>io.jsonwebtoken</groupId>
